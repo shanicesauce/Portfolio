@@ -104,15 +104,21 @@ footer div {
 .column {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
- 
+    justify-content: space-around;
+    padding: 0 0 25px 0;
 }
-.project img {
-    border: 2px solid #fdff75;
-   display: flex;
-   flex-wrap: wrap;
+.second-column { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+.projects a {
+   display:flex;
+   flex-wrap:wrap;
    justify-content: center;
-   
+}
+.projects h3 {
+    text-align: center;
 }
  
 .contact div p {
