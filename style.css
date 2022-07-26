@@ -1,0 +1,141 @@
+:root {
+    --maintxt: #ff1399;
+    --first-background: #ffd1e3;
+    --secondtxt: #6db8ff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+body {
+    color: var(--maintxt);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+ 
+header {
+    background-color: var(--first-background);
+    display: flex;
+}
+ 
+header h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--maintxt);
+    display:block;
+    position:relative;
+   
+ 
+}
+header a {
+    text-decoration: none;
+    color: var(--secondtxt);
+}
+ nav {
+display: flex;
+justify-content: right;
+background-color: var(--first-background);
+}
+ 
+ nav ul li {
+    display: inline;
+    background-color: var(--first-background);
+   
+}
+ nav ul li a {
+    margin: 0 25px;
+    font-weight: lighter;
+    font-size: 28px;
+    position: relative;
+    text-decoration: none;
+    color: var(--maintxt);
+   
+}
+footer {
+    background: var(--first-background);
+    width: 100%;
+    padding: 35px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+   
+}
+footer h2 {
+    color: var(--secondtxt);
+    display: inline;
+    font-size: 25px;
+    margin: 0;
+}
+footer div {
+    float: right;
+    line-height: 1 ;
+    text-align: center;
+}
+.avatar img {
+    border-radius: 31%;
+    border: solid 2px rgba(0, 0, 0, .7);
+    position: relative;
+   
+}
+.title {
+    font-size: 32px;
+    border-bottom: #ff8dd9 3px solid;
+    padding-bottom: 1px;
+    text-align: center;
+    margin:  0 auto 15px auto;
+    width: 35%;
+}
+.intro div p {
+    font-size: 20px;
+    text-align: center;
+    color: var(--secondtxt);
+}
+.projects article {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ 
+}
+.project img {
+    border: 2px solid #fdff75;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+ 
+.contact div p {
+  font-size: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contact div p a {
+    text-decoration: none;
+  color: var(--secondtxt);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+ 
+#resume div a {
+    font-size: 28px;
+    text-decoration: none;
+    color: var(--secondtxt);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+ 
