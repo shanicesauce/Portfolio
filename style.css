@@ -2,6 +2,7 @@
     --maintxt: #ff1399;
     --first-background: #ffd1e3;
     --secondtxt: #6db8ff;
+    --second-bg:#fff4f8;
 }
 * {
     margin: 0;
@@ -101,21 +102,29 @@ footer div {
     align-items: center;
     width: 50%;
 }
+.projects {
+    padding: 0;
+}
 .column {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 0 0 25px 0;
+    padding: 15px 0 25px 0;
 }
 .second-column { 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;    
+    justify-content: space-around;  
+    padding-bottom: 24px; 
 }
 .projects a {
    display:flex;
    flex-wrap:wrap;
    justify-content: center;
+}
+span {
+    display: block;
+    padding-top: 95px;
 }
 .projects h3 {
     text-align: center;
@@ -133,6 +142,7 @@ footer div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 42px;
  
 }
  
@@ -143,5 +153,6 @@ footer div {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
+   padding-bottom: 35px;
 }
  
