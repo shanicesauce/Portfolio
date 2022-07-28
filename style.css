@@ -117,10 +117,10 @@ footer div {
     justify-content: space-around;  
     padding-bottom: 24px; 
 }
-.projects a {
-   display:flex;
-   flex-wrap:wrap;
-   justify-content: center;
+.run{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 span {
     display: block;
